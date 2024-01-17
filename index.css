@@ -5,8 +5,6 @@
   box-sizing: border-box;
   font-family: "Mulish", sans-serif;
 }
-
-/* Header Degine */
 header {
   max-width: 1170px;
 
@@ -18,7 +16,7 @@ header {
 
   justify-content: space-between;
 }
-.heder-logos {
+.header-logo {
   display: flex;
 
   align-items: center;
@@ -26,11 +24,11 @@ header {
   gap: 15px;
 }
 
-.heder-logos h3 {
+.header-logo h3 {
   font-weight: 800;
   font-size: 2.25rem;
 }
-.heder-logos h3 span {
+.header-logo h3 span {
   color: #ff5400;
 }
 header > ul {
@@ -45,17 +43,15 @@ header > ul > li > a {
   color: #424247;
   font-size: 1.2rem;
 }
-.Active {
+.home {
   color: #ff5400;
   font-weight: 700;
 }
-/* header Degin /*
 
-/* Main Degine */
 main section {
   margin-top: 100px;
 }
-.Your-Travel {
+.travel {
  background-image: url(../img/Group\ 13\ \(1\)\ \(1\).png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -68,7 +64,7 @@ main section {
   margin-top: 146px;
   margin: auto;
 }
-.Your-Travel::before {
+.travel::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -82,13 +78,13 @@ main section {
   top: 0;
   left: 0;
 }
-.Your-Travel-Text {
+.travel-Text {
   position: relative;
   color: #fff;
   text-align: center;
   margin-bottom: 64px;
 }
-.Your-Travel-Text h1 {
+.travel-Text h1 {
   font-size: 4rem;
   margin-bottom: 24px;
 }
@@ -144,29 +140,28 @@ main section {
   top: 16px;
   color: #fff;
 }
-/* Tour Container */
-.Tour-Container {
+.tour {
   max-width: 1170px;
   margin: 100px auto;
   display: flex;
 }
-.Tour-Container-Text {
+.tour-Text {
   width: 50%;
   padding-right: 50px;
 }
-.Tour-Container-Text h1 {
+.tour-Text h1 {
   color: #131318;
   font-weight: 800;
   font-size: 2.5rem;
   margin-bottom: 24px;
 }
-.Tour-Container-Text p {
+.tour-Text p {
   margin-bottom: 24px;
 }
-.Tour-Container-Text li {
+.tour-Text li {
   margin-bottom: 15px;
 }
-.Tour-Container-Text p:nth-last-child(2) {
+.tour-Text p:nth-last-child(2) {
   margin-bottom: 46px;
   margin-top: 26px;
 }
@@ -180,19 +175,19 @@ main section {
   font-size: 20px;
   font-weight: 800;
 }
-.Tour-Container-Images {
+.tour-Images {
   width: 50%;
 }
-.Tour-Container-Images img {
+.tour-Images img {
   max-width: 90vw;
 }
-/*Your Destination Part Degine */
-.Your-Destination {
+
+.destination {
   max-width: 1170px;
 
   margin: 100px auto;
 }
-.Your-Destination h2 {
+.destination h2 {
   text-align: center;
 
   font-size: 2.5rem;
@@ -201,7 +196,7 @@ main section {
 
   margin-bottom: 24px;
 }
-.Your-Destination p {
+.destination p {
   color: rgba(19, 19, 24, 0.7);
 
   text-align: center;
@@ -212,7 +207,7 @@ main section {
 
   padding: 0px 250px;
 }
-.Your-Destination-Image {
+.destination-Image {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -231,7 +226,7 @@ main section {
   color: #fff;
   font-size: 1.2rem;
 }
-/* Why Chose Us Degine */
+
 .Choose-Us {
   max-width: 1170px;
   margin: 100px auto;
@@ -253,7 +248,7 @@ main section {
   font-size: 1rem;
   line-height: 26px;
 }
-.Card-Container {
+.card-con {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -289,7 +284,6 @@ main section {
   border: 1px solid rgba(233, 68, 68, 0.2);
   background: rgba(233, 68, 68, 0.05);
 }
-/* Discounts Section Degine */
 .Discounts {
   background-image: url(../img/Group\ 39.png);
   background-repeat: no-repeat;
@@ -341,9 +335,7 @@ main section {
 
   gap: 10px;
 }
-/* .Book-Now-Text{
   
-} */
 .Book-Now-Text h2 {
   margin-top: 26px;
 }
@@ -371,13 +363,12 @@ main section {
   justify-content: center;
   margin: 62px auto 0 auto;
 }
-/* Perfect-Place Section */
-.Perfect-Place {
+.perfectplace {
   max-width: 1170px;
 
   margin: 100px auto 0;
 }
-.Perfect-Cotainer {
+.perfectcotainer {
   display: flex;
 
   justify-content: space-between;
@@ -425,7 +416,7 @@ main section {
   color: #fff;
   font-size: 1.2rem;
 }
-/* Newsletter Section Degine */
+
 .Newsletter {
   max-width: 1170px;
   margin: 100px auto 0px auto;
@@ -470,7 +461,7 @@ main section {
   padding: 20px;
   background: rgba(19, 19, 24, 0.05);
 }
-.Sebscribe {
+.Subscribe {
   background: #ff5400 !important;
 
   color: #fff;
@@ -483,12 +474,12 @@ main section {
 
   height: 60px !important;
 }
-.Right-image {
+.right-image {
   width: 672px;
   height: 422px;
   position: relative;
 }
-.rigght-box{
+.right-box{
 
 position: absolute;
 
@@ -508,7 +499,7 @@ padding: 20px 30px;
 
 text-align: center;
 }
-.rigght-box h3{
+.right-box h3{
   
 color: #FFF;
   
@@ -516,7 +507,7 @@ font-size: 1.5rem;
   
 font-weight: 400;
 }
-.rigght-box h1{
+.right-box h1{
 
 color: #FFF;
 
@@ -524,7 +515,7 @@ font-size: 2rem;
 
 font-weight: 800;
 }
-/* footer Degine */
+
 footer {
   max-width: 1440px;
   margin: auto;
@@ -579,7 +570,7 @@ footer {
   main {
     padding: 24px;
   }
-  .Your-Travel {
+  .travel {
     padding: 75px 32px;
   }
   .Drop-Down {
@@ -587,27 +578,27 @@ footer {
     flex-direction: column;
     gap: 16px;
   }
-  .Tour-Container,
-  .Your-Destination-Image,
-  .Card-Container,
+  .tour,
+  .destination-Image,
+  .card-con,
   .NewsLetter-Container,
   .banner-input form,
   .info,
-  .Perfect-Cotainer,
+  .perfectcotainer,
   header {
     flex-direction: column;
     gap: 24px;
   }
-  .Tour-Container-Text,
-  .Tour-Container-Images {
+  .tour-Text,
+  .tour-Images {
     width: 100%;
   }
-  .Tour-Container-Text,
+  .tour-Text,
   .perfect-left {
     padding: 0;
     margin-bottom: 24px;
   }
-  .Your-Destination p,
+  .destination p,
   footer {
     padding: 7%;
     margin-top: -100px;
@@ -626,8 +617,8 @@ footer {
     width: 100%;
   }
   .Left-input,
-  .Right-image,
-  .Right-image img {
+  .right-image,
+  .right-image img {
     width: 100%;
   }
   .Left-input form input {
@@ -651,7 +642,7 @@ footer {
   header > ul {
     display: none;
   }
-  .rigght-box {
+  .right-box {
    display: none;
 }
 
